@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.f1 {
+  height: 25vw;
+  width: 25vw;
+}
+
+h1 {
+  color: green;
+  font-size: 150px;
+}
+
+p {
+  color: cyan;
+  font-size: 125px;
+}
