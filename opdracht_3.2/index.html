@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <form>
+    <label for="fname">first name</label>
+    <input required pattern="[A-Za-z]  {0, 100}" /><br>
+    <label for="lname">last name</label>
+    <input required pattern="[A-Za-z]  {0, 100}"/><br>
+    <input type="radio" name="gender" value="male">male
+    <input type="radio" name="gender" value="female">female
+    <br>postcode<input input type="text" name="zip" id="zip">
+    <br>land <input type="text" id="country" id="country">
+    <br>bsn nummer<input type="number" pattern="[0, 9]+">
+    <br> <label for="cars">vakantie land</label>
+    <select id="vacation country" name="vacation country">
+      <option value="volvo">Spanje </option>
+      <option value="saab">Italie</option>
+      <option value="fiat">Belgie</option>
+      <option value="audi">Duitseland</option>
+    <br>
+    <p>datum vertrek</p>
+    <input type="date" name="country" min="2022-09-12">
+    datum terug komst
+    <input type="date" name="country" min="2022-09-14">
+    <br>aantal mensen<input type="number" min="0" max="4">
+
+    <br><input type="submit" value="Boek Nu">
+   </form> 
+   email<input type="email" id="email" name="email">
+   <div>
+    <label for="pass">wachtwoord</label>
+    <input type="password" id="pass" name="password"
+           minlength="8" required>
+</div>
+</body>
+</html>
