@@ -2,11 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Goldman', cursive
+  
 }
 html {
   font-size: 62.5%;
 }
 body {
+  background-color: black;
   font-family: "Goldman", cursive;
 }
 
@@ -37,3 +40,32 @@ nav a {
 nav img {
   width: 5vw;
 }
+.section-1{
+  background: url(img/opp-2.jpg);
+  height: 50vw;
+  width: 100vw;
+}
+h1{
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 3vh;
+  font: bold;
+  }
+  h2{
+    color: white;
+    font: bold;
+  }
+  p{
+    color: white;
+  }
+  .footer-text{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+  footer{
+    background: #00a8c7;
+    height: 3vh;
+  }
+  
