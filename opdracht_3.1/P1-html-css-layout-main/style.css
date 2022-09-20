@@ -44,6 +44,7 @@ nav img {
   background: url(img/opp-2.jpg);
   height: 50vw;
   width: 100vw;
+  background-position: center;
 }
 h1{
   font-style: italic;
