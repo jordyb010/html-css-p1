@@ -46,6 +46,7 @@ nav img {
   width: 100vw;
 }
 h1{
+  font-style: italic;
   color: white;
   display: flex;
   justify-content: center;
