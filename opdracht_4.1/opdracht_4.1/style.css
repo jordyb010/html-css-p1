@@ -3,10 +3,13 @@
   padding: 0;
   font-family: sans-serif;
 }
-.header-1{
+.header{
     width: 100vw;
-    height: 33vw;
-   background-image: url(img/360_F_442215355_AjiR6ogucq3vPzjFAAEfwbPXYGqYVAap.jpg);
+    height: 33vh;
+    background: no-repeat;
+    background-image: url(img/360_F_442215355_AjiR6ogucq3vPzjFAAEfwbPXYGqYVAap.jpg) ;
+    background-size: cover;
+    background-position: center;
 }
 article{
     border-style: solid;
