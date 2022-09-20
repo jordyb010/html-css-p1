@@ -11,7 +11,7 @@ html {
 body {
   background-color: black;
   font-family: "Goldman", cursive;
-}
+  }
 
 nav {
   display: flex;
@@ -23,6 +23,7 @@ nav {
   margin: auto;
   background: #00a8c7;
   justify-content: space-between;
+  position: fixed;
 }
 nav ul {
   display: flex;
@@ -45,7 +46,7 @@ nav img {
   height: 50vw;
   width: 100vw;
   background-position: center;
-}
+ }
 h1{
   font-style: italic;
   color: white;
@@ -57,7 +58,9 @@ h1{
   h2{
     color: white;
     font: bold;
-  }
+    display: flex;
+    justify-content: center;
+ }
   p{
     color: white;
   }
@@ -69,5 +72,13 @@ h1{
   footer{
     background: #00a8c7;
     height: 3vh;
+    position: sticky;
   }
-  
+ .container{
+  display: flex;
+  align-items: center;
+  padding-top: 10em;
+  padding-bottom: 1em;
+  padding-left: 2em;
+ }
+ 
