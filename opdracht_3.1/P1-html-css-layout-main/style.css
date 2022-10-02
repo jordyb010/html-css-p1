@@ -77,8 +77,19 @@ h1{
  .container{
   display: flex;
   align-items: center;
-  padding-top: 10em;
-  padding-bottom: 1em;
-  padding-left: 2em;
+  
  }
+ nav ul ul {
+  position: absolute;
+  border-top: 0.3rem solid cyan;
+  display: block;
+  visibility: hidden;
+  background: #E9E9E9;
  
+}
+nav ul li:hover > ul {
+  visibility: visible;
+}
+.kleur:hover{
+  background-color: #00a8c7;
+}
