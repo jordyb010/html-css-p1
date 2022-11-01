@@ -1,0 +1,150 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.red-1{
+    height: 10vh;
+    width: 100vw;
+   background-color: red;
+}
+input{
+    display: none;
+}
+h1{
+    color: white;
+}
+section {
+    height: 30vh;
+}
+.yellow-2{
+    height: 30vh;
+    width: 100vw;
+   background-color:yellow; 
+}
+.orange-3{
+    height: 30vh;
+    width: 100vw;
+   background-color:orange; 
+}
+.green-4{
+    height: 30vh;
+    width: 100vw;
+   background-color:green; 
+}
+
+@media screen and (max-width: 768px) {
+    
+        .red-1{
+            height: 10vh;
+            width: 100vw;
+           background-color: pink;
+        }
+        h1{
+            color: white;
+        }
+        section {
+            height: 30vh;
+        }
+        .yellow-2{
+            height: 30vh;
+            width: 100vw;
+           background-color:red; 
+        }
+        .orange-3{
+            height: 30vh;
+            width: 100vw;
+           background-color:lightblue; 
+        }
+        .green-4{
+            height: 30vh;
+            width: 100vw;
+           background-color:blue; 
+        }
+        h2{
+            color: white;
+        }
+        p{
+            color: white;
+        }
+}
+
+@media screen and (max-width: 768px) {
+    
+    .red-1{
+        height: 10vh;
+        width: 100vw;
+       background-color: pink;
+    }
+   
+    h1{
+        color: white;
+    }
+    section {
+        height: 30vh;
+    }
+    .yellow-2{
+        height: 30vh;
+        width: 100vw;
+       background-color:red; 
+    }
+    .orange-3{
+        height: 30vh;
+        width: 100vw;
+       background-color:lightblue; 
+    }
+    .green-4{
+        height: 30vh;
+        width: 100vw;
+       background-color:blue; 
+    }
+    h2{
+        color: white;
+    }
+    p{
+        color: white;
+    }
+}
+@media screen and (max-width: 576px) {
+    
+    .red-1{
+        height: 10vh;
+        width: 100vw;
+        background-color: lightskyblue;
+        display: flex;
+        justify-content: space-between;
+      padding: 20px;
+    }
+   
+    input{
+        display:block ;
+    }
+    h1{
+        color: white;
+    }
+    section {
+        height: 30vh;
+    }
+    .yellow-2{
+        height: 30vh;
+        width: 100vw;
+       background-color:cyan; 
+    }
+    .orange-3{
+        height: 30vh;
+        width: 100vw;
+       background-color:purple; 
+    }
+    .green-4{
+        height: 30vh;
+        width: 100vw;
+       background-color:darkblue; 
+    }
+    h2{
+        color: white;
+    }
+    p{
+        color: white;
+    }
+}
