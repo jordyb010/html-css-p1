@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: none;
+  font-family: "Goldman", "bungee spice", "" "cursive";
+  font-weight: 2rem;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+html {
+  font-size: 62.5%;
+}
+nav {
+  display: flex;
+  width: 100vw;
+  height: 10vh;
+  background: #131c27;
+  justify-content: space-between;
+  align-items: center;
+}
+ul {
+  text-align: center;
+}
+h1 {
+  display: flex;
+  justify-content: flex-start;
+  color: white;
+  font-family: "bungee" "cursive";
+  margin-left: 2rem;
+}
+
+li {
+  display: inline;
+  color: white;
+  margin: 4rem;
+  font-family: "goldman";
+  font-size: 1.5rem;
+}
+
+.section-1 {
+  height: 90vh;
+  width: 100vw;
+  background-image: url(./img/landing-page.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+.section-2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  font-family: "goldman" "cursive";
+  margin: 5rem;
+  color: white;
+  font-size: 4rem;
+  line-height: 1rem;
+}
+p {
+  color: white;
+  font-size: 2rem;
+  font-family: "goldman";
+}
+button {
+  margin: 1rem;
+  background: lightblue;
+  width: 10rem;
+}
+.section-3 {
+  height: 90vh;
+  width: 100vw;
+  background-image: url(./img/new-york-page.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+.section-4 h2 {
+  color: #131c27;
+  font-size: 4rem;
+}
+.section-4 p {
+  color: #131c27;
+  font-size: 3rem;
+}
+.section-5 {
+  height: 30vh;
+  width: 100vw;
+  background: #131c27;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.section-6 {
+  height: 60vh;
+  width: 100vw;
+  margin-top: 10rem;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+}
+.card {
+  height: 40vh;
+  width: 20vw;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.card-up {
+  height: 10vh;
+  width: 44,4vh;
+  background-color: #131c27;
+
+}
+.card-h3 {
+  color: black;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  font-family: "goldman" "cursive";
+ margin-top: 4rem;
+}
+.card-p {
+  padding: 3rem;
+  color: black;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.svg-positie{
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+svg{
+  height: 5rem;
+}
+
+@media only screen and (max-width: 900px) {
+  nav {
+    background: #131c27;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  ul{
+    display: flex;
+   }
+  h2{
+  font-size: 3rem;
+}
+p{
+  font-size: 1.3rem;
+}
+.h2-section5{
+  font-size: 2.3rem;
+}
+.section-4 .time-p{
+  font-size: 2rem;
+}
+.section-6{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card{
+  height: 30vh;
+  width: 60vw;
+  margin: 5rem;
+}
+.card-p{
+  font-size: 0.8rem;
+}
+}
